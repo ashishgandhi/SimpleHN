@@ -71,10 +71,13 @@
 
 + (NSString *)timeElapsedFromSubtext:(TFHppleElement *)subtext ofType:(BOOL)userSubtext
 {
+    
     NSInteger subtextIndex = 0;
     if (userSubtext) subtextIndex = 3;
     
     NSArray *timeElapsedComponents = [[[(subtext.children)[subtextIndex] content] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] componentsSeparatedByString:@" "];
+#warning band-aid to stop crashing
+    if(timeElapsedComponents.count < 2) return @"";
     NSString *timeElapsed = [[[NSString alloc] initWithFormat:@"%@ %@", timeElapsedComponents[0], timeElapsedComponents[1]] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     return timeElapsed;
 }
