@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81150CA7160539B4006F6692 /* ReadSubmissionsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81150CA5160539B4006F6692 /* ReadSubmissionsModel.xcdatamodeld */; };
+		81150CAD160597EA006F6692 /* Readability@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81150CAB160597EA006F6692 /* Readability@2x.png */; };
+		81150CAF16059FFD006F6692 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81150CAE16059FFD006F6692 /* CoreData.framework */; };
+		812A203F15FC06ED004E36B5 /* SimpleHNProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 812A203E15FC06ED004E36B5 /* SimpleHNProfile.m */; };
+		812A204215FC1DB5004E36B5 /* SimpleHNProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812A204115FC1DB5004E36B5 /* SimpleHNProfileViewController.m */; };
+		814C27F015F57B4D0025BD4E /* SimpleHNSubmissionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C27EF15F57B4D0025BD4E /* SimpleHNSubmissionsViewController.m */; };
+		814C280D15F59C4F0025BD4E /* SimpleHNHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C280C15F59C4F0025BD4E /* SimpleHNHomeViewController.m */; };
+		814C281315F5C9EE0025BD4E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 814C281215F5C9EE0025BD4E /* libxml2.dylib */; };
+		814C282015F5CA5F0025BD4E /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C281A15F5CA5F0025BD4E /* XPathQuery.m */; };
+		814C282115F5CA5F0025BD4E /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C281D15F5CA5F0025BD4E /* TFHpple.m */; };
+		814C282215F5CA5F0025BD4E /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C281F15F5CA5F0025BD4E /* TFHppleElement.m */; };
+		814C282615F5CC260025BD4E /* SimpleHNSubmissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C282515F5CC260025BD4E /* SimpleHNSubmissions.m */; };
+		816066CB160AFC99003D14B4 /* Submission.m in Sources */ = {isa = PBXBuildFile; fileRef = 816066CA160AFC99003D14B4 /* Submission.m */; };
+		8165D70A1610DEC7002C656D /* Comments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8165D7081610DEC7002C656D /* Comments@2x.png */; };
+		8165D70E1610E1E1002C656D /* Safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8165D70C1610E1E1002C656D /* Safari@2x.png */; };
+		8178359D17EE4C8A00678583 /* Icon-App.png in Resources */ = {isa = PBXBuildFile; fileRef = 8178359A17EE4C8A00678583 /* Icon-App.png */; };
+		8178359E17EE4C8A00678583 /* Icon-Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 8178359B17EE4C8A00678583 /* Icon-Settings.png */; };
+		8178359F17EE4C8A00678583 /* Icon-Spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8178359C17EE4C8A00678583 /* Icon-Spotlight.png */; };
+		817835A217EE4CCC00678583 /* Launch-568.png in Resources */ = {isa = PBXBuildFile; fileRef = 817835A017EE4CCC00678583 /* Launch-568.png */; };
+		817835A317EE4CCC00678583 /* Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 817835A117EE4CCC00678583 /* Launch.png */; };
+		817835A517EE4CE300678583 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817835A417EE4CE300678583 /* Images.xcassets */; };
+		8197790815FAC82300A88DA4 /* SimpleHNSubmissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8197790715FAC82300A88DA4 /* SimpleHNSubmissionViewController.m */; };
+		81B564EA1607FA6B00028D07 /* SimpleHNComments.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B564E91607FA6B00028D07 /* SimpleHNComments.m */; };
+		81CC9D2115F53922002E5A7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC9D2015F53922002E5A7A /* UIKit.framework */; };
+		81CC9D2315F53922002E5A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC9D2215F53922002E5A7A /* Foundation.framework */; };
+		81CC9D2515F53922002E5A7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC9D2415F53922002E5A7A /* CoreGraphics.framework */; };
+		81CC9D2B15F53922002E5A7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81CC9D2915F53922002E5A7A /* InfoPlist.strings */; };
+		81CC9D2D15F53922002E5A7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CC9D2C15F53922002E5A7A /* main.m */; };
+		81CC9D3115F53922002E5A7A /* SimpleHNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CC9D3015F53922002E5A7A /* SimpleHNAppDelegate.m */; };
+		81CC9D3415F53922002E5A7A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CC9D3215F53922002E5A7A /* MainStoryboard.storyboard */; };
+		81CEA99815FE50EA002037A1 /* UIUnreadIndicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81CEA99415FE50EA002037A1 /* UIUnreadIndicator@2x.png */; };
+		81CEA99B15FE50EA002037A1 /* UIUnreadIndicatorPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81CEA99715FE50EA002037A1 /* UIUnreadIndicatorPressed@2x.png */; };
+		81CEA9A715FE52E3002037A1 /* UIReadIndicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81CEA9A515FE52E3002037A1 /* UIReadIndicator@2x.png */; };
+		81F3012A1609521200B230A8 /* SimpleHNCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F301291609521200B230A8 /* SimpleHNCommentsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81150CA6160539B4006F6692 /* ReadSubmissionsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReadSubmissionsModel.xcdatamodel; sourceTree = "<group>"; };
+		81150CAB160597EA006F6692 /* Readability@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Readability@2x.png"; sourceTree = "<group>"; };
+		81150CAE16059FFD006F6692 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		812A203D15FC06ED004E36B5 /* SimpleHNProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHNProfile.h; sourceTree = "<group>"; };
+		812A203E15FC06ED004E36B5 /* SimpleHNProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHNProfile.m; sourceTree = "<group>"; };
+		812A204015FC1DB5004E36B5 /* SimpleHNProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHNProfileViewController.h; sourceTree = "<group>"; };
+		812A204115FC1DB5004E36B5 /* SimpleHNProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHNProfileViewController.m; sourceTree = "<group>"; };
+		814C27EE15F57B4D0025BD4E /* SimpleHNSubmissionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHNSubmissionsViewController.h; sourceTree = "<group>"; };
+		814C27EF15F57B4D0025BD4E /* SimpleHNSubmissionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHNSubmissionsViewController.m; sourceTree = "<group>"; };
+		814C280B15F59C4F0025BD4E /* SimpleHNHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHNHomeViewController.h; sourceTree = "<group>"; };
+		814C280C15F59C4F0025BD4E /* SimpleHNHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHNHomeViewController.m; sourceTree = "<group>"; };
+		814C281215F5C9EE0025BD4E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		814C281A15F5CA5F0025BD4E /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		814C281B15F5CA5F0025BD4E /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		814C281C15F5CA5F0025BD4E /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		814C281D15F5CA5F0025BD4E /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		814C281E15F5CA5F0025BD4E /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		814C281F15F5CA5F0025BD4E /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		814C282415F5CC260025BD4E /* SimpleHNSubmissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHNSubmissions.h; sourceTree = "<group>"; };
+		814C282515F5CC260025BD4E /* SimpleHNSubmissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHNSubmissions.m; sourceTree = "<group>"; };
+		816066C9160AFC99003D14B4 /* Submission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Submission.h; sourceTree = "<group>"; };
+		816066CA160AFC99003D14B4 /* Submission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Submission.m; sourceTree = "<group>"; };
+		8165D7081610DEC7002C656D /* Comments@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Comments@2x.png"; sourceTree = "<group>"; };
+		8165D70C1610E1E1002C656D /* Safari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safari@2x.png"; sourceTree = "<group>"; };
+		8178359A17EE4C8A00678583 /* Icon-App.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App.png"; sourceTree = "<group>"; };
+		8178359B17EE4C8A00678583 /* Icon-Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Settings.png"; sourceTree = "<group>"; };
+		8178359C17EE4C8A00678583 /* Icon-Spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight.png"; sourceTree = "<group>"; };
+		817835A017EE4CCC00678583 /* Launch-568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch-568.png"; sourceTree = "<group>"; };
+		817835A117EE4CCC00678583 /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch.png; sourceTree = "<group>"; };
+		817835A417EE4CE300678583 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Hacker News/Images.xcassets"; sourceTree = "<group>"; };
+		8197790615FAC82300A88DA4 /* SimpleHNSubmissionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHNSubmissionViewController.h; sourceTree = "<group>"; };
+		8197790715FAC82300A88DA4 /* SimpleHNSubmissionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHNSubmissionViewController.m; sourceTree = "<group>"; };
+		81B564E81607FA6B00028D07 /* SimpleHNComments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHNComments.h; sourceTree = "<group>"; };
+		81B564E91607FA6B00028D07 /* SimpleHNComments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHNComments.m; sourceTree = "<group>"; };
+		81CC9D1C15F53922002E5A7A /* Hacker News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CC9D2015F53922002E5A7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81CC9D2215F53922002E5A7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81CC9D2415F53922002E5A7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81CC9D2815F53922002E5A7A /* Simple Hacker News-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Hacker News-Info.plist"; sourceTree = "<group>"; };
+		81CC9D2A15F53922002E5A7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81CC9D2C15F53922002E5A7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81CC9D2E15F53922002E5A7A /* Simple Hacker News-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Hacker News-Prefix.pch"; sourceTree = "<group>"; };
+		81CC9D2F15F53922002E5A7A /* SimpleHNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleHNAppDelegate.h; sourceTree = "<group>"; };
+		81CC9D3015F53922002E5A7A /* SimpleHNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleHNAppDelegate.m; sourceTree = "<group>"; };
+		81CC9D3315F53922002E5A7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		81CEA99415FE50EA002037A1 /* UIUnreadIndicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIUnreadIndicator@2x.png"; sourceTree = "<group>"; };
+		81CEA99715FE50EA002037A1 /* UIUnreadIndicatorPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIUnreadIndicatorPressed@2x.png"; sourceTree = "<group>"; };
+		81CEA9A515FE52E3002037A1 /* UIReadIndicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIReadIndicator@2x.png"; sourceTree = "<group>"; };
+		81F301281609521200B230A8 /* SimpleHNCommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHNCommentsViewController.h; sourceTree = "<group>"; };
+		81F301291609521200B230A8 /* SimpleHNCommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHNCommentsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81CC9D1915F53922002E5A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814C281315F5C9EE0025BD4E /* libxml2.dylib in Frameworks */,
+				81150CAF16059FFD006F6692 /* CoreData.framework in Frameworks */,
+				81CC9D2115F53922002E5A7A /* UIKit.framework in Frameworks */,
+				81CC9D2315F53922002E5A7A /* Foundation.framework in Frameworks */,
+				81CC9D2515F53922002E5A7A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81150CA9160539BB006F6692 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81150CA5160539B4006F6692 /* ReadSubmissionsModel.xcdatamodeld */,
+				816066C9160AFC99003D14B4 /* Submission.h */,
+				816066CA160AFC99003D14B4 /* Submission.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8142F20E15F88F3700482367 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8165D70C1610E1E1002C656D /* Safari@2x.png */,
+				8165D7081610DEC7002C656D /* Comments@2x.png */,
+				81150CAB160597EA006F6692 /* Readability@2x.png */,
+				81CEA9A515FE52E3002037A1 /* UIReadIndicator@2x.png */,
+				81CEA99415FE50EA002037A1 /* UIUnreadIndicator@2x.png */,
+				81CEA99715FE50EA002037A1 /* UIUnreadIndicatorPressed@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		814C281915F5CA390025BD4E /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				814C281A15F5CA5F0025BD4E /* XPathQuery.m */,
+				814C281B15F5CA5F0025BD4E /* XPathQuery.h */,
+				814C281C15F5CA5F0025BD4E /* TFHpple.h */,
+				814C281D15F5CA5F0025BD4E /* TFHpple.m */,
+				814C281E15F5CA5F0025BD4E /* TFHppleElement.h */,
+				814C281F15F5CA5F0025BD4E /* TFHppleElement.m */,
+			);
+			name = Hpple;
+			sourceTree = "<group>";
+		};
+		814C282315F5CBF30025BD4E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				814C280B15F59C4F0025BD4E /* SimpleHNHomeViewController.h */,
+				814C280C15F59C4F0025BD4E /* SimpleHNHomeViewController.m */,
+				814C27EE15F57B4D0025BD4E /* SimpleHNSubmissionsViewController.h */,
+				814C27EF15F57B4D0025BD4E /* SimpleHNSubmissionsViewController.m */,
+				8197790615FAC82300A88DA4 /* SimpleHNSubmissionViewController.h */,
+				8197790715FAC82300A88DA4 /* SimpleHNSubmissionViewController.m */,
+				812A204015FC1DB5004E36B5 /* SimpleHNProfileViewController.h */,
+				812A204115FC1DB5004E36B5 /* SimpleHNProfileViewController.m */,
+				81F301281609521200B230A8 /* SimpleHNCommentsViewController.h */,
+				81F301291609521200B230A8 /* SimpleHNCommentsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		814C282715F5CDBF0025BD4E /* Hacker News API */ = {
+			isa = PBXGroup;
+			children = (
+				814C282415F5CC260025BD4E /* SimpleHNSubmissions.h */,
+				814C282515F5CC260025BD4E /* SimpleHNSubmissions.m */,
+				812A203D15FC06ED004E36B5 /* SimpleHNProfile.h */,
+				812A203E15FC06ED004E36B5 /* SimpleHNProfile.m */,
+				81B564E81607FA6B00028D07 /* SimpleHNComments.h */,
+				81B564E91607FA6B00028D07 /* SimpleHNComments.m */,
+			);
+			name = "Hacker News API";
+			sourceTree = "<group>";
+		};
+		81BC96DB160A746500AAA9D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				817835A417EE4CE300678583 /* Images.xcassets */,
+				817835A017EE4CCC00678583 /* Launch-568.png */,
+				817835A117EE4CCC00678583 /* Launch.png */,
+				8178359A17EE4C8A00678583 /* Icon-App.png */,
+				8178359B17EE4C8A00678583 /* Icon-Settings.png */,
+				8178359C17EE4C8A00678583 /* Icon-Spotlight.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		81CC9D1115F53922002E5A7A = {
+			isa = PBXGroup;
+			children = (
+				81BC96DB160A746500AAA9D2 /* Resources */,
+				81CC9D2615F53922002E5A7A /* Simple Hacker News */,
+				81CC9D1F15F53922002E5A7A /* Frameworks */,
+				81CC9D1D15F53922002E5A7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81CC9D1D15F53922002E5A7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81CC9D1C15F53922002E5A7A /* Hacker News.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81CC9D1F15F53922002E5A7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				814C281215F5C9EE0025BD4E /* libxml2.dylib */,
+				81150CAE16059FFD006F6692 /* CoreData.framework */,
+				81CC9D2015F53922002E5A7A /* UIKit.framework */,
+				81CC9D2215F53922002E5A7A /* Foundation.framework */,
+				81CC9D2415F53922002E5A7A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81CC9D2615F53922002E5A7A /* Simple Hacker News */ = {
+			isa = PBXGroup;
+			children = (
+				8142F20E15F88F3700482367 /* Images */,
+				814C281915F5CA390025BD4E /* Hpple */,
+				81CC9D2F15F53922002E5A7A /* SimpleHNAppDelegate.h */,
+				81CC9D3015F53922002E5A7A /* SimpleHNAppDelegate.m */,
+				81CC9D3215F53922002E5A7A /* MainStoryboard.storyboard */,
+				814C282715F5CDBF0025BD4E /* Hacker News API */,
+				814C282315F5CBF30025BD4E /* Controllers */,
+				81150CA9160539BB006F6692 /* Models */,
+				81CC9D2715F53922002E5A7A /* Supporting Files */,
+			);
+			path = "Simple Hacker News";
+			sourceTree = "<group>";
+		};
+		81CC9D2715F53922002E5A7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81CC9D2815F53922002E5A7A /* Simple Hacker News-Info.plist */,
+				81CC9D2915F53922002E5A7A /* InfoPlist.strings */,
+				81CC9D2C15F53922002E5A7A /* main.m */,
+				81CC9D2E15F53922002E5A7A /* Simple Hacker News-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81CC9D1B15F53922002E5A7A /* Hacker News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CC9D3A15F53922002E5A7A /* Build configuration list for PBXNativeTarget "Hacker News" */;
+			buildPhases = (
+				81CC9D1815F53922002E5A7A /* Sources */,
+				81CC9D1915F53922002E5A7A /* Frameworks */,
+				81CC9D1A15F53922002E5A7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hacker News";
+			productName = "Simple Hacker News";
+			productReference = 81CC9D1C15F53922002E5A7A /* Hacker News.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81CC9D1315F53922002E5A7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SimpleHN;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ashish Gandhi";
+				TargetAttributes = {
+					81CC9D1B15F53922002E5A7A = {
+						DevelopmentTeam = PLHG7WAVL7;
+					};
+				};
+			};
+			buildConfigurationList = 81CC9D1615F53922002E5A7A /* Build configuration list for PBXProject "Simple Hacker News" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81CC9D1115F53922002E5A7A;
+			productRefGroup = 81CC9D1D15F53922002E5A7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81CC9D1B15F53922002E5A7A /* Hacker News */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81CC9D1A15F53922002E5A7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8178359F17EE4C8A00678583 /* Icon-Spotlight.png in Resources */,
+				81CC9D2B15F53922002E5A7A /* InfoPlist.strings in Resources */,
+				81CC9D3415F53922002E5A7A /* MainStoryboard.storyboard in Resources */,
+				81CEA99815FE50EA002037A1 /* UIUnreadIndicator@2x.png in Resources */,
+				817835A317EE4CCC00678583 /* Launch.png in Resources */,
+				81CEA99B15FE50EA002037A1 /* UIUnreadIndicatorPressed@2x.png in Resources */,
+				817835A217EE4CCC00678583 /* Launch-568.png in Resources */,
+				81CEA9A715FE52E3002037A1 /* UIReadIndicator@2x.png in Resources */,
+				81150CAD160597EA006F6692 /* Readability@2x.png in Resources */,
+				817835A517EE4CE300678583 /* Images.xcassets in Resources */,
+				8165D70A1610DEC7002C656D /* Comments@2x.png in Resources */,
+				8178359D17EE4C8A00678583 /* Icon-App.png in Resources */,
+				8165D70E1610E1E1002C656D /* Safari@2x.png in Resources */,
+				8178359E17EE4C8A00678583 /* Icon-Settings.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81CC9D1815F53922002E5A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CC9D2D15F53922002E5A7A /* main.m in Sources */,
+				81CC9D3115F53922002E5A7A /* SimpleHNAppDelegate.m in Sources */,
+				814C27F015F57B4D0025BD4E /* SimpleHNSubmissionsViewController.m in Sources */,
+				814C280D15F59C4F0025BD4E /* SimpleHNHomeViewController.m in Sources */,
+				814C282015F5CA5F0025BD4E /* XPathQuery.m in Sources */,
+				814C282115F5CA5F0025BD4E /* TFHpple.m in Sources */,
+				814C282215F5CA5F0025BD4E /* TFHppleElement.m in Sources */,
+				814C282615F5CC260025BD4E /* SimpleHNSubmissions.m in Sources */,
+				8197790815FAC82300A88DA4 /* SimpleHNSubmissionViewController.m in Sources */,
+				812A203F15FC06ED004E36B5 /* SimpleHNProfile.m in Sources */,
+				812A204215FC1DB5004E36B5 /* SimpleHNProfileViewController.m in Sources */,
+				81150CA7160539B4006F6692 /* ReadSubmissionsModel.xcdatamodeld in Sources */,
+				81B564EA1607FA6B00028D07 /* SimpleHNComments.m in Sources */,
+				81F3012A1609521200B230A8 /* SimpleHNCommentsViewController.m in Sources */,
+				816066CB160AFC99003D14B4 /* Submission.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81CC9D2915F53922002E5A7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81CC9D2A15F53922002E5A7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81CC9D3215F53922002E5A7A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81CC9D3315F53922002E5A7A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81CC9D3815F53922002E5A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ashish Gandhi (PLHG7WAVL7)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "43C371F2-DB38-4D8E-82AF-33A21E2AD8C4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "43C371F2-DB38-4D8E-82AF-33A21E2AD8C4";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81CC9D3915F53922002E5A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ashish Gandhi (PLHG7WAVL7)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "43C371F2-DB38-4D8E-82AF-33A21E2AD8C4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1C72AB68-B561-4E56-A7F1-8BA8C86AFF6C";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81CC9D3B15F53922002E5A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Hacker News/Simple Hacker News-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
+				INFOPLIST_FILE = "Simple Hacker News/Simple Hacker News-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81CC9D3C15F53922002E5A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Hacker News/Simple Hacker News-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
+				INFOPLIST_FILE = "Simple Hacker News/Simple Hacker News-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81CC9D1615F53922002E5A7A /* Build configuration list for PBXProject "Simple Hacker News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CC9D3815F53922002E5A7A /* Debug */,
+				81CC9D3915F53922002E5A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CC9D3A15F53922002E5A7A /* Build configuration list for PBXNativeTarget "Hacker News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CC9D3B15F53922002E5A7A /* Debug */,
+				81CC9D3C15F53922002E5A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		81150CA5160539B4006F6692 /* ReadSubmissionsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				81150CA6160539B4006F6692 /* ReadSubmissionsModel.xcdatamodel */,
+			);
+			currentVersion = 81150CA6160539B4006F6692 /* ReadSubmissionsModel.xcdatamodel */;
+			path = ReadSubmissionsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 81CC9D1315F53922002E5A7A /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>281C2C0B-CCE3-453C-B344-FB231911277B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Simple Hacker News</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>01A7FA59A14CA9BD71EC57794699A8C26F944F55</key>
+		<string>ssh://bitbucket.org/ashishgandhi/simple-hn.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Simple Hacker News.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>01A7FA59A14CA9BD71EC57794699A8C26F944F55</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/ashishgandhi/simple-hn.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>01A7FA59A14CA9BD71EC57794699A8C26F944F55</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>01A7FA59A14CA9BD71EC57794699A8C26F944F55</string>
+			<key>IDESourceControlWCCName</key>
+			<string>simple-hn</string>
+		</dict>
+	</array>
+</dict>
+</plist>
